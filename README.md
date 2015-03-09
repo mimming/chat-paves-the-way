@@ -1,7 +1,5 @@
 # How Chat is Paving the Way for Wearables Tech
 
-[![preview animation](preview.gif)](https://mimming.com/presos/chat-paves-the-way/)
-
 Slides live on [mimming.com](https://mimming.com/presos/chat-paves-the-way/)
 
 ## About the deck
