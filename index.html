@@ -45,6 +45,11 @@
 
 
   <style>
+    body {
+    background: #000;
+      background-color: #000;
+    
+    }
     .openlayers-map img {
       margin: 0;
     }
@@ -246,9 +251,9 @@
   <script type="text/template">
     ## Chat + HTTP = :(
         
-    Polling
+    ### Polling
     
-    - picture -
+    ![](img/polling.jpg)
 
   </script>
 </section>
@@ -256,9 +261,9 @@
   <script type="text/template">
     ## Chat + HTTP = :(
 
-    Comet
+    ### Comet
 
-    - picture -
+    ![](img/comet.jpg)
 
   </script>
 </section>
@@ -267,7 +272,7 @@
   <script type="text/template">
     ## Chat + WebSockets = :)
 
-    - picture -
+    ![](img/websockets.jpg)
 
   </script>
 </section>
@@ -310,21 +315,12 @@
   <br/><a href="http://tinyurl.com/MMOasteroids">http://tinyurl.com/MMOasteroids</a>
 </section>
 
-<section data-markdown>
-  <script type="text/template">
-    ## Chat and Wearable Apps have a lot in common
-
-    - Lots of little messages
-    - More reads than writes
-    - Conversations of low-latency events
-  </script>
-</section>
 
 <section data-markdown>
   <script type="text/template">
     ## Cloud makes it easier
 
-    - picture -
+    ![](img/cloud.jpg)
   </script>
 </section>
 
@@ -431,7 +427,7 @@ ref.on("value", function (snapshot) {
 
   // Update to display map on map-canvas when that slide loads
   Reveal.addEventListener('slidechanged', function (event) {
-    if (event.indexh === 5) {
+    if (event.indexh === 15) {
       transitmapstart()
     }
   });
